@@ -1,0 +1,19 @@
+{
+   development: {
+      server: {
+         port: 3000,
+         secret_key: 'abc123',
+      },
+      logger: {
+         format: 'dev',
+         dir: 'logs'
+      },
+      cors: {
+         origin: '*',
+         credentials: true
+      },
+      db: {
+         host: 'src/dev.sqlite'
+      }
+   }
+}
